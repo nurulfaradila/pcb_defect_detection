@@ -1,0 +1,9 @@
+names:
+  0: exc_solder
+  1: good
+  2: no_good
+  3: poor_solder
+  4: spike
+path: /app/ml/dataset
+train: images/train
+val: images/val

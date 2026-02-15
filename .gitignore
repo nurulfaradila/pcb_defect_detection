@@ -1,0 +1,38 @@
+# System
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Project Specific
+ml/dataset/
+ml/runs/
+uploads/
+backend/uploads/
+
+# Docker
+.docker/
+
+# Data
+*.csv
+*.json
+!ml/data/*.json
